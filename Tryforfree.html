@@ -11,46 +11,56 @@
     <link rel="stylesheet" href="output.css">
 </head>
 
-<body class="">
-    <div>
-        <div>
-            <img src="Images/saleforceicon-removebg-preview.png" alt="">
+<body class="mx-20 my-10 bg-white  ">
+
+    <div class="flex bg-slate-200 border rounded-2xl">
+        <img class="h-full w-20 ml-3" src="Images/saleforceicon-removebg-preview.png" alt="">
+        <div class="flex py-3 pl-5">
             <div>
-                <h1>Start your free 30 day trial.</h1>
-                <h2>With Starter Suite, there's no credit card required, no software to install.</h2>
-                <p>With your trial, you get:</p>
-                <ul>
-                    <li>Get started fast with simplified sign-up, easy-to-follow onboarding, and ready-to-use tools</li>
-                    <li>Drive efficiency with built-in guidance, how-tos, and best practices</li>
-                    <li>Unlock marketing, sales, service, and commerce in one suite to accelerate your business growth</li>
-                    <p>Questions? Call us at 1800-420-7332.</p>
-                    <img src="Images_tryforfree/bg img try for freee.png" alt="">
+                <h1 class="text-4xl font-semibold text-blue-950">Start your free 30 day trial.</h1>
+                <h2 class="text-2xl mt-5 font-light ">With Starter Suite, there's no credit card required, no software to install.</h2>
+                <p class="py-5">With your trial, you get:</p>
+                <ul class="list-disc pl-4">
+                    <li class="">Get started fast with simplified sign-up, easy-to-follow onboarding, and ready-to-use tools</li>
+                    <li class="mt-1">Drive efficiency with built-in guidance, how-tos, and best practices</li>
+                    <li class="mt-1">Unlock marketing, sales, service, and commerce in one suite to accelerate your business growth</li>
                 </ul>
+                    <p class="my-10">Questions? Call us at 1800-420-7332.</p>
+                    <img class=" w-[70vh]" src="Images_tryforfree/bg img try for freee.png" alt="">
             </div>
         </div>    
-        <form action="submit">
-            <h2>Sign up now to start a free Starter trial.</h2>
-            <p>Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial.</p>
+        <form class="p-7 bg-slate-200/40 w-[60vh]" action="submit">
+            <h2 class="font-semibold mb-4 ">Sign up now to start a free Starter trial.</h2>
+            <p class="mb-7">Complete the form to start your free trial. Our team will be in touch to help you make the most of your trial.</p>
             <div>
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+                <input class="border h-8 w-[24vh] mr-3 bg-slate-100 border-black rounded-md px-3 focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none mb-6" type="text" name="" placeholder="First Name" id="">
+                <input class="border h-8 w-[24vh] bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" name="" placeholder="Last Name" id="">
             </div>
             <div>
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+                <input class="border h-8 w-[24vh] mr-3 bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" name="" placeholder="Job title" id="">
+                <input class="border h-8 w-[24vh] bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="email" name="" placeholder="Work email" id="">
             </div>
             <div>
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+                <input class="border h-8 w-[24vh] mr-3 bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" name="" placeholder="Company" id="">
+                <input class="border h-8 w-[24vh] bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" name="" placeholder="Employees" id="">
             </div>
             <div>
-                <input type="text" name="" id="">
-                <input type="text" name="" id="">
+                <input class="border h-8 w-[24vh] mr-3 bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="number" name="" placeholder="Phone" id="">
+                <input class="border h-8 w-[24vh] bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" name="" placeholder="Country" id="">
             </div>
-            <input type="text">
-            <input type="checkbox" name="" id="">
+            <input class="border h-8 w-full bg-slate-100 border-black rounded-md px-3 mb-6  focus:ring-2 focus:ring-blue-400 focus:shadow-md focus:shadow-blue-300 focus:outline-none" type="text" placeholder="Try customer Features">
+            <div class="flex">
+                <input type="checkbox" name="agree" id="">
+                <p class="ml-3">I agree to the</p>
+                <p class="ml-1 text-blue-600"> Main Services Agreement.</p>
+            </div>
+            <p class="mt-3 text-xs">Your free trial may be provisioned on or migrated to Hyperforce, Salesforce's public cloud infrastructure.</p>
+            <p class="mt-3 text-sm bg-slate-300 mb-6 py-1">We value your privacy. To learn more, visit our Privacy Statement.</p>
+            <button class="border-blue-600 border-2 h-10 w-full rounded-lg bg-blue-600 text-white" type="submit">START MY FREE TRIAL</button>
+            <input type="text" class="border-2 border-gray-300 focus:ring-2 focus:ring-red-400 focus:shadow-lg focus:shadow-red-300 focus:outline-none p-3 rounded-md" placeholder="Soft Glow Focus">
+
         </form>
     </div>
-
 </body>
 </html>
+
